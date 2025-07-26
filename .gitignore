@@ -1,0 +1,12 @@
+__pycache__/
+app/__pycache__/
+tests/ __pycache__/
+*.pyc
+*.pyo
+*.db
+.env
+venv/
+.vscode/
+.idea/
+.pytest_cache/
+.coverage

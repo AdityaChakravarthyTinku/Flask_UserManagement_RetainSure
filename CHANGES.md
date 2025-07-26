@@ -139,12 +139,11 @@ Tests run in my terminal:
 
 - Tools Used:** ChatGPT (OpenAI) for reference and technical guidance.  
 - <b>Code Contribution:</b>  
-  <li> Drafted `tests/test_app.py` for critical endpoint testing.  </li>
-  <li> Suggested **regex patterns** for email and password validation.  </li>
-  <li> Recommended the `SELECT changes();` fix in `execute_query()` to ensure accurate row modification detection in SQLite when there was response mismatch during put/delete apis testing.  </li>
+  <li> Drafted `tests/test_app.py` for critical endpoint testing.</li>
+  <li> Suggested **regex patterns** for email and password validation and that part of utils.py.  </li>
+  <li> Recommended the `SELECT changes();` fix in `execute_query()` to ensure accurate row modification detection in SQLite when there was response mismatch during put/delete apis testing. </li>
 - <b>Documentation Support:</b>  
   <li> Assisted in formatting and enhancing this CHANGES.md file quickly.  </li>
   <li> Helped organize points for more future improvements potentials and API testing strategies as part of test_app.py and helped me resolve the correct working by adding system path appropriately.</li>  
 - <b>Role of AI:</b>  
-  <li> Suggested modular **code structure** (e.g., `routes.py`, `services.py`, `utils.py`).  </li>
-  <li> Provided **security and best practice recommendations** like password hashing, parameterized SQL, and proper status codes.</li>
+  <li> Provided **security and best practice recommendations** like appropriate proper status codes.</li>
